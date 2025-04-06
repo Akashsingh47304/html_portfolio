@@ -1,0 +1,44 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  .main{
+    flex: 1;
+  }
+
+  h1{
+    font-size: 5rem;
+    margin-bottom: 15%;
+  }
+  
+  .Discover{
+    color: midnightblue;
+  }
+  .logo{
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+    
+  }
+  .c{
+    color: #4B0082;
+  }
+  .cafe{
+    width: 40%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  p{
+    color: #2c2c2c;
+  }
+  .contact{
+    display: inline-flex;
+    gap: 5px;
+  }
+ a{
+    color:  #708090;
+ }
