@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 95vh;
+    justify-content: center;
   }
   .main{
     flex: 1;
@@ -12,23 +13,23 @@ body {
 
   h1{
     font-size: 5rem;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
   
   .Discover{
     color: midnightblue;
   }
   .logo{
-    width: 25%;
+    width: 20%;
     float: left;
     border-radius: 50%;
-    
+    margin-right: 100%;
   }
   .c{
     color: #4B0082;
   }
   .cafe{
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
     object-fit: cover;
   }
@@ -38,7 +39,19 @@ body {
   .contact{
     display: inline-flex;
     gap: 5px;
+    display: wrap;
   }
+  
  a{
     color:  #708090;
  }
+ @media(max-width=680px){
+  .logo{
+    width:100px;
+  }
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+ }
+ 
